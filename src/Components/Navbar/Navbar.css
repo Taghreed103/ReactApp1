@@ -1,0 +1,13 @@
+
+.navbar{
+    padding:30px   30px  ;
+    background-color: rgb(33,37,41) !important;
+}
+
+
+.active-link {
+  padding: 10px 10px ;
+   background-color: rgb(19, 218, 125);
+   border-radius: 5%;
+  color: #000000 !important; /* مثال: لون ذهبي */
+}

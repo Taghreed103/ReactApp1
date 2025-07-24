@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  background: #212529;
+  color: #fff;
+ 
+}
+
+.main-footer {
+  min-height: 180px; /*  ارتفاع الفوتر  الاول */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-bottom{
+  border-top: 1px  solid rgb(4, 177, 162)!important;   ;
+}
+footer .paragraph{
+  font-size: 14px;
+  color: #07eb88;
+  margin-top: 10px;
+}

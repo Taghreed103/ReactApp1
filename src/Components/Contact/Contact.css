@@ -1,0 +1,50 @@
+.contact{
+    padding: 50px  20px !important;
+}
+
+
+#Lline,
+#Rline{
+    background-color: black;
+   color: black !important;
+}
+.floating-placeholder {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.floating-placeholder input {
+  width: 100%;
+  padding: 30px 15px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px  solid  rgb(180, 178, 178);
+  border-radius: 6px;
+  background: #f8fbff;
+  outline: none;
+}
+.floating-placeholder input::placeholder {
+  position: absolute;
+  left: 0.75rem;
+  top: 1.2rem;
+  color: #aaa;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.2s;
+}
+.floating-placeholder input:focus {
+  box-shadow: none !important;
+  border-color: #0dcaf0 !important; /* أو أي لون تفضليه أو احذفي السطر لو مش عايزة لون */
+  outline: none !important;
+}
+
+.floating-placeholder input:focus::placeholder,
+.floating-placeholder input:not(:placeholder-shown)::placeholder {
+  top: .5rem;
+  left: 0.6rem;
+  font-size: 0.85rem;
+  color: #0dcaf0; /* لون مميز للـ placeholder */
+  background: #f8fbff;
+  padding: 0 0.25rem;
+
+}

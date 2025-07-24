@@ -1,0 +1,33 @@
+.portfolio{
+         background-color: rgb(43, 156, 151);
+        padding: 150px 20px !important;
+}
+
+ .portfolio  .content {
+        position: relative;
+         overflow: hidden;
+         cursor: pointer;
+        border-radius: 10px;
+        width: 100%;
+ }
+
+.portfolio-overlay{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+         background-color:rgb(8, 199, 135);
+         color: white;
+         font-size: 3rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        opacity: 0;
+        transition: all .5s   ease;
+        height: 100%;
+        width: 100%;
+
+}
+
+.content:hover .portfolio-overlay {
+  opacity: .6;
+}
