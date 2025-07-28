@@ -28,7 +28,8 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span> 
+            <i className="fas fa-bars text-white fs-3"></i>
+
         </button>
 
 
