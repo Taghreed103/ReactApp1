@@ -60,8 +60,13 @@ export default function Portfolio() {
       </div>
     </div>
    {/*   modal   content  */}
-     <Modal imgSrc={currentImg}   onClose={handleClose} />
-
+ <Modal imgSrc={currentImg}   onClose={handleClose} />
+<Modal imgSrc="/img1.png" onClose={handleClose} />
+<Modal imgSrc="/img2.png" onClose={handleClose} />
+<Modal imgSrc="/img3.png" onClose={handleClose} />
+<Modal imgSrc="/img4.png" onClose={handleClose} />
+<Modal imgSrc="/img5.png" onClose={handleClose} />
+<Modal imgSrc="/img6.png" onClose={handleClose} />
     
     
     </>

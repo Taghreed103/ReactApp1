@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom text-center mt-4 " style={{ background: "#3d3e3fff", padding: "10px 0" , fontSize:"17px" }}>
-        Copyright<span   className='text-info fs-2 p-1'>©</span>  Your Website 2021
+        Copyright<span   className='text-info fs-2 p-1'>©</span>  Your Website 2025
       </div>
     </footer>
   )}
