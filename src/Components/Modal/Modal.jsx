@@ -10,7 +10,7 @@ export default function Modal({ imgSrc, onClose }) {
       <div className="modal-dialog modal-dialog-centered" onClick={(e) => e.stopPropagation()}>
         <div className="modal-content">
           <div className="modal-body p-0">
-            <img src={imgSrc} className="w-100" alt="modal preview" />
+            <img src={`${import.meta.env.BASE_URL}${imgSrc}`} className="w-100" alt="modal preview" />
           </div>
           <div className="modal-footer justify-content-center">
             <button type="button" className="btn btn-secondary" onClick={onClose}>

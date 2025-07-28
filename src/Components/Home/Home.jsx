@@ -6,7 +6,7 @@ export default function Home() {
  <>
    <header className="header    bg-info text-white text-center py-5">
         <div className="py-5 d-flex flex-column align-items-center">
-          <img src="/img/imgi_1_avataaars.svg" alt="Logo" className="mb-4 mt-5" style={{ width: "110px" }} />
+          <img src={`${import.meta.env.BASE_URL}img/imgi_1_avataaars.svg`} alt="Logo" className="mb-4 mt-5" style={{ width: "110px" }} />
           <h1 className="text-uppercase fw-bold">Start Framework</h1>
           <div className="d-flex justify-content-center align-items-center gap-2 my-3">
             <div className="bg-white" style={{ width: "50px", height: "2px" }}></div>

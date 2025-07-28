@@ -5,18 +5,15 @@ import Modal  from '../Modal/Modal';
 export default function Portfolio() {
   
 
-  const images=[
-  "/img/port1.png",
-  "/img/port2.png",
-  "/img/port3.png",
-  "/img/port1.png",
-  "/img/port2.png",
-  "/img/port3.png",
+  const images = [
+  `${import.meta.env.BASE_URL}img/port1.png`,
+  `${import.meta.env.BASE_URL}img/port2.png`,
+  `${import.meta.env.BASE_URL}img/port3.png`,
+  `${import.meta.env.BASE_URL}img/port1.png`,
+  `${import.meta.env.BASE_URL}img/port2.png`,
+  `${import.meta.env.BASE_URL}img/port3.png`,
+];
 
-
-
-
-  ]
 
   const [currentImg, setCurrentImg] = useState('');
 

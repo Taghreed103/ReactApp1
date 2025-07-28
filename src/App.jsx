@@ -11,7 +11,8 @@ import Layout from './Components/Layout';
 
   return (
     <>
- <BrowserRouter>
+ <BrowserRouter basename="/ReactApp1">
+
         <Routes>
 
 
@@ -27,7 +28,7 @@ import Layout from './Components/Layout';
          </Routes>
 
         {/* Other components or routes can be added here */}
-      </BrowserRouter>
+      </BrowserRouter   >
      
     </>
   )
